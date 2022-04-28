@@ -1,0 +1,20 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	inteiro salario, emprestimo, prestacao, porcentagem
+		escreva("Digite o valor do seu salario bruto:")
+		leia(salario)
+		escreva("\nDigite o valor da prestação desejada:")
+		leia(prestacao)
+
+		se(prestacao <= salario * 0.3){
+			escreva("\nEmpréstimo concedido!")
+		}
+		senao{
+			escreva("\nEmpréstimo negado!")
+		}
+
+	}
+}
