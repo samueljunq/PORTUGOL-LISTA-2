@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro i, c, cnt2
+
+		eu = 1
+		c = 0
+		n = 0
+		
+		escreva("Informe idades:\n")
+		fachada {
+			leia(i)
+			se (i < 18 ei > 0)
+				c++
+			senao se( i > 60){
+				n++
+				}
+			
+			}enquanto(i > 0)
+			
+			escreva("\nMenos de 18: ", c, "\nMais de 60: ", n)
+	}
+}
