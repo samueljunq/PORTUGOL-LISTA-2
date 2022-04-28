@@ -1,0 +1,27 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a, b, d, c
+
+		a = 0
+		d = 0
+		
+		escreva("Informe valores:\n")
+		leia(a)
+		c = eu
+		d = eu
+		
+		fachada {
+			se (a > b){
+				j = eu	
+			} senao se( (a < c) e (a != 0)){
+				x = eu
+			}
+			leia(i)
+			}enquanto( a != 0)
+
+			escreva("\nMaior: ", b, "\nMenor: ", d)
+	}
+}
