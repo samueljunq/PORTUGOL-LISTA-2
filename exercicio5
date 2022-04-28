@@ -1,0 +1,36 @@
+programa
+{
+44
+	
+	funcao inicio()
+	{
+	inteiro n1, n2, n3, media
+		escreva("Digite um valor para a primeira nota:")
+		leia(n1)
+		escreva("Digite um valor para a segunda nota:")
+		leia(n2)
+		escreva("Digite um valor para a terceirag nota:")
+		leia(n3)
+
+		media = n1 + n2+ n3 / 3
+
+		se(media >= 8 e media < 10){
+			escreva("\nConceito A")
+		}
+		senao se(media >= 7 e media < 8){
+			escreva("\nConceito B")
+		}
+		senao se(media >= 6 e media < 7){
+			escreva("\nConceito C")
+		}
+		senao se(media >= 5 e media < 6){
+			escreva("\nConceito D")
+		}
+		senao se(media >= 0 e media < 5){
+			escreva("\nConceito E")
+		}
+		senao{
+			escreva("Valor invalido")
+		}
+	}
+}
